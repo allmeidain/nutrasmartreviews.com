@@ -1,0 +1,12 @@
+:root{
+  --navy-1:#005598;
+  --navy-2:#004a99;
+  --testimonial-navy:#003d7a;
+  --panel-gray:#c9e0f1;
+  --cta-1:#eefe3c;
+  --cta-2:#c9d620;
+  --cta-hover-1:#f8ff70;
+  --cta-hover-2:#eefe3c;
+  --badge-bg:rgba(255,255,255,.15);
+  --badge-border:rgba(238,254,60,.5);
+}

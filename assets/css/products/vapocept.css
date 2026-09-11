@@ -1,0 +1,12 @@
+:root{
+  --navy-1:#0c1e3d;
+  --navy-2:#08152c;
+  --testimonial-navy:#0f2648;
+  --panel-gray:#faf3e8;
+  --cta-1:#f0b030;
+  --cta-2:#d4891e;
+  --cta-hover-1:#f7c954;
+  --cta-hover-2:#e69a22;
+  --badge-border:#e8c88e;
+}
+.hero-image img{max-height:calc(var(--header-h) * 2 + 40px);max-width:85%}
