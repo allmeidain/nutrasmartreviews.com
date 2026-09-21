@@ -37,7 +37,9 @@
       "@id": "https://nutrasmartreviews.com/#website",
       "url": "https://nutrasmartreviews.com/",
       "name": "Nutra Smart Reviews",
-      "publisher": { "@id": "https://nutrasmartreviews.com/#organization" }
+      "publisher": {
+        "@id": "https://nutrasmartreviews.com/#organization"
+      }
     },
     {
       "@type": "Person",
@@ -49,8 +51,12 @@
       "@id": "https://nutrasmartreviews.com/reviews/marobrain/#webpage",
       "url": "https://nutrasmartreviews.com/reviews/marobrain/",
       "name": "Marobrain Review: Evidence-Based Cognitive Support & Memory Clarity (2026)",
-      "isPartOf": { "@id": "https://nutrasmartreviews.com/#website" },
-      "author": { "@id": "https://nutrasmartreviews.com/#author" },
+      "isPartOf": {
+        "@id": "https://nutrasmartreviews.com/#website"
+      },
+      "author": {
+        "@id": "https://nutrasmartreviews.com/#author"
+      },
       "datePublished": "2026-09-12",
       "dateModified": "2026-09-12",
       "inLanguage": "en-US"
@@ -58,9 +64,23 @@
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://nutrasmartreviews.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Reviews", "item": "https://nutrasmartreviews.com/reviews/" },
-        { "@type": "ListItem", "position": 3, "name": "Marobrain" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://nutrasmartreviews.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Reviews",
+          "item": "https://nutrasmartreviews.com/reviews/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Marobrain"
+        }
       ]
     },
     {
@@ -68,7 +88,10 @@
       "@id": "https://nutrasmartreviews.com/reviews/marobrain/#product",
       "name": "Marobrain",
       "description": "A daily nootropic dietary supplement formulated with Bacopa Monnieri, Huperzine-A, Rhodiola Rosea, and L-Tyrosine to support neurotransmitter health, mental recall, and sustained cognitive focus.",
-      "brand": { "@type": "Brand", "name": "Marobrain" },
+      "brand": {
+        "@type": "Brand",
+        "name": "Marobrain"
+      },
       "image": "https://nutrasmartreviews.com/assets/images/marobrain/marobrain-hero.png",
       "offers": {
         "@type": "AggregateOffer",
@@ -77,20 +100,32 @@
         "priceCurrency": "USD",
         "offerCount": "3",
         "url": "https://marobrain.com/dtc-2b/?aff_id=6022"
-      }
-    },
-    {
-      "@type": "Review",
-      "itemReviewed": { "@id": "https://nutrasmartreviews.com/reviews/marobrain/#product" },
-      "author": { "@id": "https://nutrasmartreviews.com/#author" },
-      "publisher": { "@id": "https://nutrasmartreviews.com/#organization" },
-      "datePublished": "2026-09-12",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "4.9",
-        "bestRating": "5"
       },
-      "reviewBody": "A daily nootropic dietary supplement formulated with Bacopa Monnieri, Huperzine-A, Rhodiola Rosea, and L-Tyrosine to support neurotransmitter health, mental recall, and sustained cognitive focus."
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@id": "https://nutrasmartreviews.com/#author"
+        },
+        "publisher": {
+          "@id": "https://nutrasmartreviews.com/#organization"
+        },
+        "datePublished": "2026-09-12",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "A daily nootropic dietary supplement formulated with Bacopa Monnieri, Huperzine-A, Rhodiola Rosea, and L-Tyrosine to support neurotransmitter health, mental recall, and sustained cognitive focus.",
+        "@id": "https://nutrasmartreviews.com/reviews/marobrain/#review"
+      }
     }
   ]
 }

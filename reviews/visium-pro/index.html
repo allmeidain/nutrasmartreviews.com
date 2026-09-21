@@ -37,7 +37,9 @@
       "@id": "https://nutrasmartreviews.com/#website",
       "url": "https://nutrasmartreviews.com/",
       "name": "Nutra Smart Reviews",
-      "publisher": { "@id": "https://nutrasmartreviews.com/#organization" }
+      "publisher": {
+        "@id": "https://nutrasmartreviews.com/#organization"
+      }
     },
     {
       "@type": "Person",
@@ -49,8 +51,12 @@
       "@id": "https://nutrasmartreviews.com/reviews/visium-pro/#webpage",
       "url": "https://nutrasmartreviews.com/reviews/visium-pro/",
       "name": "Visium Pro Review: Evidence-Based Macular & Retinal Vision Support (2026)",
-      "isPartOf": { "@id": "https://nutrasmartreviews.com/#website" },
-      "author": { "@id": "https://nutrasmartreviews.com/#author" },
+      "isPartOf": {
+        "@id": "https://nutrasmartreviews.com/#website"
+      },
+      "author": {
+        "@id": "https://nutrasmartreviews.com/#author"
+      },
       "datePublished": "2026-09-12",
       "dateModified": "2026-09-12",
       "inLanguage": "en-US"
@@ -58,9 +64,23 @@
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://nutrasmartreviews.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Reviews", "item": "https://nutrasmartreviews.com/reviews/" },
-        { "@type": "ListItem", "position": 3, "name": "Visium Pro" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://nutrasmartreviews.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Reviews",
+          "item": "https://nutrasmartreviews.com/reviews/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Visium Pro"
+        }
       ]
     },
     {
@@ -68,7 +88,10 @@
       "@id": "https://nutrasmartreviews.com/reviews/visium-pro/#product",
       "name": "Visium Pro",
       "description": "An ocular dietary supplement formulated with Vitamin A, Vitamin C, Zinc, Selenium, and botanical cofactors to protect retinal microcapillaries, defend against blue-light damage, and sharpen focus.",
-      "brand": { "@type": "Brand", "name": "Visium Pro" },
+      "brand": {
+        "@type": "Brand",
+        "name": "Visium Pro"
+      },
       "image": "https://nutrasmartreviews.com/assets/images/visium-pro/hero-2bottles.png",
       "offers": {
         "@type": "AggregateOffer",
@@ -77,20 +100,32 @@
         "priceCurrency": "USD",
         "offerCount": "3",
         "url": "https://visiumpro.com/discover/ROOT-L3/index.html?aff_id=3511"
-      }
-    },
-    {
-      "@type": "Review",
-      "itemReviewed": { "@id": "https://nutrasmartreviews.com/reviews/visium-pro/#product" },
-      "author": { "@id": "https://nutrasmartreviews.com/#author" },
-      "publisher": { "@id": "https://nutrasmartreviews.com/#organization" },
-      "datePublished": "2026-09-12",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "4.9",
-        "bestRating": "5"
       },
-      "reviewBody": "An ocular dietary supplement formulated with Vitamin A, Vitamin C, Zinc, Selenium, and botanical cofactors to protect retinal microcapillaries, defend against blue-light damage, and sharpen focus."
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@id": "https://nutrasmartreviews.com/#author"
+        },
+        "publisher": {
+          "@id": "https://nutrasmartreviews.com/#organization"
+        },
+        "datePublished": "2026-09-12",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "An ocular dietary supplement formulated with Vitamin A, Vitamin C, Zinc, Selenium, and botanical cofactors to protect retinal microcapillaries, defend against blue-light damage, and sharpen focus.",
+        "@id": "https://nutrasmartreviews.com/reviews/visium-pro/#review"
+      }
     }
   ]
 }

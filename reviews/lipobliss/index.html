@@ -37,7 +37,9 @@
       "@id": "https://nutrasmartreviews.com/#website",
       "url": "https://nutrasmartreviews.com/",
       "name": "Nutra Smart Reviews",
-      "publisher": { "@id": "https://nutrasmartreviews.com/#organization" }
+      "publisher": {
+        "@id": "https://nutrasmartreviews.com/#organization"
+      }
     },
     {
       "@type": "Person",
@@ -49,8 +51,12 @@
       "@id": "https://nutrasmartreviews.com/reviews/lipobliss/#webpage",
       "url": "https://nutrasmartreviews.com/reviews/lipobliss/",
       "name": "LipoBliss Review: Evidence-Based Metabolic Support & Satiety Signaling (2026)",
-      "isPartOf": { "@id": "https://nutrasmartreviews.com/#website" },
-      "author": { "@id": "https://nutrasmartreviews.com/#author" },
+      "isPartOf": {
+        "@id": "https://nutrasmartreviews.com/#website"
+      },
+      "author": {
+        "@id": "https://nutrasmartreviews.com/#author"
+      },
       "datePublished": "2026-09-12",
       "dateModified": "2026-09-12",
       "inLanguage": "en-US"
@@ -58,9 +64,23 @@
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://nutrasmartreviews.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Reviews", "item": "https://nutrasmartreviews.com/reviews/" },
-        { "@type": "ListItem", "position": 3, "name": "LipoBliss" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://nutrasmartreviews.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Reviews",
+          "item": "https://nutrasmartreviews.com/reviews/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "LipoBliss"
+        }
       ]
     },
     {
@@ -68,7 +88,10 @@
       "@id": "https://nutrasmartreviews.com/reviews/lipobliss/#product",
       "name": "LipoBliss",
       "description": "An all-natural liquid botanical supplement formulated with African Mango, Gymnema Sylvestre, Maca Root, and Forskolin to support healthy GLP-1 fullness signaling, fat metabolism, and sustained energy.",
-      "brand": { "@type": "Brand", "name": "LipoBliss" },
+      "brand": {
+        "@type": "Brand",
+        "name": "LipoBliss"
+      },
       "image": "https://nutrasmartreviews.com/assets/images/lipobliss/art-01.png",
       "offers": {
         "@type": "AggregateOffer",
@@ -77,20 +100,32 @@
         "priceCurrency": "USD",
         "offerCount": "3",
         "url": "https://buylipobliss.com/dtc/?aff_id=1051"
-      }
-    },
-    {
-      "@type": "Review",
-      "itemReviewed": { "@id": "https://nutrasmartreviews.com/reviews/lipobliss/#product" },
-      "author": { "@id": "https://nutrasmartreviews.com/#author" },
-      "publisher": { "@id": "https://nutrasmartreviews.com/#organization" },
-      "datePublished": "2026-09-12",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "4.9",
-        "bestRating": "5"
       },
-      "reviewBody": "LipoBliss is a science-backed liquid dietary supplement designed to activate natural satiety cues, curb between-meal sugar impulses, and facilitate cellular fat metabolism. This comprehensive review analyzes botanical mechanisms, usage protocols, manufacturing credentials, and verified consumer experiences."
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@id": "https://nutrasmartreviews.com/#author"
+        },
+        "publisher": {
+          "@id": "https://nutrasmartreviews.com/#organization"
+        },
+        "datePublished": "2026-09-12",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "LipoBliss is a science-backed liquid dietary supplement designed to activate natural satiety cues, curb between-meal sugar impulses, and facilitate cellular fat metabolism. This comprehensive review analyzes botanical mechanisms, usage protocols, manufacturing credentials, and verified consumer experiences.",
+        "@id": "https://nutrasmartreviews.com/reviews/lipobliss/#review"
+      }
     }
   ]
 }
