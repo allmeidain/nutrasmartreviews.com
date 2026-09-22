@@ -1,12 +1,12 @@
-/* Visium Pro Official Teal & Gold Theme */
+/* Visium Pro Official Vibrant Teal & Gold Theme */
 :root {
-  --navy-1: #0A7E8C;
-  --navy-2: #042F34;
-  --testimonial-navy: #075E66;
+  --navy-1: #0ABAB5;
+  --navy-2: #0A7E8C;
+  --testimonial-navy: #078C88;
   --panel-gray: #E1F5F5;
-  --cta-1: #F9C016;
-  --cta-2: #FFC107;
+  --cta-1: #FFC107;
+  --cta-2: #F9C016;
   --cta-hover-1: #FFE066;
-  --cta-hover-2: #F5C518;
-  --badge-border: rgba(249, 192, 22, 0.6);
+  --cta-hover-2: #FFC107;
+  --badge-border: rgba(255, 193, 7, 0.6);
 }
