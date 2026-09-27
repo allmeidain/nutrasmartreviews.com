@@ -1,11 +1,11 @@
 /* Tokens de cores extraídos da identidade oficial do produto */
 :root {
-  --navy-1: #1FA45C;
-  --navy-2: #201842;
-  --cta-1: #FFE9A0;
-  --cta-2: #C98A55;
-  --cta-hover-1: #FFFFB3;
-  --cta-hover-2: #FFE9A0;
-  --testimonial-navy: #188349;
-  --badge-border: rgba(255, 233, 160, 0.6);
+  --navy-1: #1B1714;
+  --navy-2: #0F0C0A;
+  --cta-1: #C98A55;
+  --cta-2: #A87C3C;
+  --cta-hover-1: #D49B55;
+  --cta-hover-2: #B37540;
+  --testimonial-navy: #2A2018;
+  --badge-border: rgba(201, 138, 85, 0.6);
 }
