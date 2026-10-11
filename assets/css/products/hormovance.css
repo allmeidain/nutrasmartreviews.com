@@ -1,0 +1,40 @@
+/*
+  Paleta por produto -- Hormovance.
+  Sobrescreve os tokens de cor (:root) de ../reviews.css para refletir a
+  identidade visual real do rotulo oficial e dos criativos da oferta
+  (hormovance.shop/pv -> assets em agenusdev.s3.amazonaws.com).
+  Navy profundo (#142642) + dourado (#d3a052/#a1793b) sobre creme (#f4f0ed).
+  Tokens em data/produtos/hormovance.json -> theme_tokens.
+*/
+:root{
+  --navy-1:#1c3155;
+  --navy-2:#0a1728;
+  --testimonial-navy:#142642;
+  --panel-gray:#f4f0ed;
+  --cta-1:#e6c17e;
+  --cta-2:#c08f3e;
+  --cta-hover-1:#f2d7a3;
+  --cta-hover-2:#d3a052;
+  --badge-border:rgba(211,160,82,.6);
+}
+
+.hero-image{padding:30px 0 20px;text-align:center;background:var(--paper);display:flex;align-items:center;justify-content:center;min-height:420px}
+.hero-image a{display:inline-flex;justify-content:center;align-items:center;max-width:100%}
+.hero-image img{width:auto;height:auto;max-height:440px;max-width:min(580px, 90vw);margin:0 auto;object-fit:contain;filter:drop-shadow(0 10px 25px rgba(10,23,40,.18));transition:transform .3s ease}
+.hero-image img:hover{transform:scale(1.03)}
+
+.inline-figure{text-align:center;padding:24px 20px 35px}
+.inline-figure a{display:inline-block;max-width:100%;text-align:center}
+.inline-figure img{max-width:580px;width:100%;height:auto;margin:0 auto;filter:drop-shadow(0 12px 28px rgba(10,23,40,.2));border-radius:12px;transition:transform .3s ease}
+.inline-figure img:hover{transform:scale(1.02)}
+
+@media (min-width: 768px) {
+  .hero-image img { max-height: 380px; }
+}
+
+@media (max-width: 767px) {
+  .hero-image{padding:16px 0 10px;min-height:0}
+  .hero-image img{width:82%;max-width:330px;max-height:340px;object-fit:contain}
+  .inline-figure{padding:15px 15px 25px}
+  .inline-figure img{max-width:100%;width:100%;height:auto;margin:0 auto}
+}
