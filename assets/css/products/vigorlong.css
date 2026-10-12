@@ -1,0 +1,22 @@
+/* Tokens de cores extraídos da identidade oficial do produto */
+:root {
+  --navy-1: #404040;
+  --navy-2: #404040;
+  --cta-1: #FBF124;
+  --cta-2: #FBBF24;
+  --cta-hover-1: #FFF768;
+  --cta-hover-2: #FCCF2E;
+  --testimonial-navy: #404040;
+  --badge-border: rgba(251, 241, 36, 0.6);
+}
+
+#conditional-floating-button {
+  background-image: linear-gradient(180deg, var(--cta-1) 0%, var(--cta-2) 100%) !important;
+  color: #000000 !important;
+}
+
+#conditional-floating-button:hover,
+#conditional-floating-button:focus {
+  background-image: linear-gradient(180deg, var(--cta-hover-1) 0%, var(--cta-hover-2) 100%) !important;
+  box-shadow: 0 12px 30px rgba(251, 191, 36, 0.75), 0 4px 15px rgba(0, 0, 0, 0.4) !important;
+}
