@@ -1,0 +1,63 @@
+/* Tokens de cores extraídos da identidade oficial do produto BoosterXT */
+:root {
+  --navy-1: #17140f;
+  --navy-2: #0d0c0a;
+  --cta-1: #e0b563;
+  --cta-2: #c89b3c;
+  --cta-hover-1: #f0d38f;
+  --cta-hover-2: #d9720b;
+  --testimonial-navy: #17140f;
+  --badge-border: rgba(200, 155, 60, 0.7);
+}
+
+.hero-image {
+  padding: 30px 0 20px;
+  text-align: center;
+  background: var(--paper, #fff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 420px;
+}
+.hero-image a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+.hero-image img {
+  width: auto;
+  height: auto;
+  max-height: 440px;
+  max-width: min(580px, 90vw);
+  margin: 0 auto;
+  border-radius: var(--radius, 20px);
+  object-fit: contain;
+  filter: drop-shadow(0 10px 25px rgba(13, 12, 10, 0.25));
+  transition: transform .3s ease;
+}
+.hero-image img:hover {
+  transform: scale(1.03);
+}
+
+.inline-figure {
+  text-align: center;
+  padding: 24px 20px 35px;
+}
+.inline-figure a {
+  display: inline-block;
+  max-width: 100%;
+  text-align: center;
+}
+.inline-figure img {
+  max-width: 580px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  filter: drop-shadow(0 12px 28px rgba(13, 12, 10, 0.25));
+  border-radius: 12px;
+  transition: transform .3s ease;
+}
+.inline-figure img:hover {
+  transform: scale(1.02);
+}
